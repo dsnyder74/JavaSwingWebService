@@ -7,7 +7,6 @@
 <title>Shopkin Entry</title>
 <style type="text/css">
 body {
-	background-image: url('http://crunchify.com/bg.png');
 }
 </style>
 </head>
@@ -17,14 +16,14 @@ body {
 		<h2>Shopkins Everywhere!</h2>
 	
 		<div>
-		<table>
-			<tr><td colspan=2>Enter a new Shopkin:</td></tr>
 			<form commandname="shopkin-entity" action="process-shopkin.html" method="post">
-			<tr><td>ID:</td><td><input type="text" name="id" /></td></tr>
-			<tr><td>Name:</td><td><input type="text" name="name" /></td></tr>
-			<tr><td colspan=2><input type="submit" name="submit" value="Submit" /></td></tr>
+				<table>
+					<tr><td colspan=2>Enter a new Shopkin:</td></tr>	
+					<tr><td>ID:</td><td><input type="text" name="id" /></td></tr>
+					<tr><td>Name:</td><td><input type="text" name="name" /></td></tr>
+					<tr><td colspan=2><input type="submit" name="submit" value="Submit" /></td></tr>
+				</table>
 			</form>
-			</table>
 		</div>
 		
 	</div>

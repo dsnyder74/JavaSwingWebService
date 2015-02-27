@@ -52,19 +52,4 @@ public class ShopkinsDB {
         return modelAndView;  
     } 
     
-	
-	@RequestMapping("/welcome")
-	public ModelAndView helloWorld(ModelMap model) {
- 
-		String message="QWERT";
-		
-		for (Map.Entry<String, Object> entry : model.entrySet()) {
-			message = message + entry.getKey() + ":" + entry.getValue().toString();
-		}
-
-		message = message + "<br><div align='center'>"
-			 + "<h3>********** Hello World, Spring MVC Tutorial</h3>This message is comming from ShopkinsDB.java **********<br><br>";
-
-		return new ModelAndView("welcome","message",message);
-	}
 }
